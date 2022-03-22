@@ -5,4 +5,4 @@ Voici mon CV en ligne en React. Cela me permet de mettre en pratique mes connais
 react
 material ui
 react_html2pdf
-scss
+scss => sass : utilisation des variables pour le css
