@@ -1,6 +1,6 @@
 @use "src/styles/vars" as v;
 
-body {
+.body {
     font-family: v.$global-font;
     font-weight: 200;
     color: v.$text-color;
@@ -11,6 +11,17 @@ h1, h2, h3 {
     margin-bottom: v.$spacing-1;
     font-weight: 400;
     color: v.$text-color;
+}
+
+h1 {
+    font-size: v.$h1-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: v.$text-color;
+}
+
+p {
+    margin-bottom: v.$spacing-2;
 }
 
 @media screen and (min-width:760px) { 

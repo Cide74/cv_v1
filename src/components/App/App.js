@@ -8,13 +8,12 @@ function App() {
       <div className="grid__container">
         <div className="sidebar">
           <User />
-        <div className="main">
-          main
-        </div> 
+        </div>
+        <div className="main">main</div> 
       </div>
-    </div>
     </div>
   );
 };
+
 
 export default App;

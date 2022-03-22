@@ -12,6 +12,7 @@ function User() {
   return (
     <div className="user">
       <img 
+        className="user__avatar"
         src={imgRegis} 
         alt="Régis BLEC"/>
         <h1 className="user__name">Régis BLEC</h1>
