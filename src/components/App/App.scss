@@ -29,10 +29,19 @@ h2 {
     text-transform: uppercase;
     color: v.$text-color;
     margin-bottom: v.$spacing-4;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 p {
+    margin-bottom: v.$spacing-2;
+    //text-transform: capitalize;
+}
+
+ul {
+    padding-left: 1.3rem;
+}
+
+li {
     margin-bottom: v.$spacing-2;
 }
 

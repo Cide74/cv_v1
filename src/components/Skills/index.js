@@ -1,5 +1,6 @@
 import "./style.scss";
-import Skill from "./Skill";
+import Skill from "./skill";
+import Interests from "./interests";
 
 
 function Skills() {
@@ -18,13 +19,9 @@ function Skills() {
         <h2 className="h2">Langues</h2>
         <Skill title="ANGLAIS" rating="4"/>
       </div>
-      <div className="skills">
-        <h2 className="h2">Intérêts</h2>
-        <Interests title="Jeux"/>
-        <Skill title="Cinéma"/>
-        <Skill title="Aquaponie"/>
+        <Interests />
       </div>
-    </div>
+    
   )
 }
 

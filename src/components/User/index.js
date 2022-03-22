@@ -28,7 +28,7 @@ function User() {
               <MailIcon /> regis.blec@ik.me</a>
           </p>
           <p className="user__info">
-            <TodayIcon /> date de naissance : 20 juin 1981</p>
+            <TodayIcon /> Date de naissance : 20 juin 1981</p>
           <p className="user__info">
             <LocationOnIcon /> Lieu de naissance : Sélestat</p>
           {/**  <p className="user__info">396 route de favergettes, 74210 Faverges</p>*/}
