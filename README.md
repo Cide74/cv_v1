@@ -6,3 +6,4 @@ react
 material ui
 react_html2pdf
 scss => sass : utilisation des variables pour le css
+utilisation de grid

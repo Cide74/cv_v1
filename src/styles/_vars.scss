@@ -1,14 +1,14 @@
 // colors 
 
-$body-background-colors: #FFF;
-$sidebar-background-colors: #F4F4F4;
-$text-colors: #333;
-$title-colors: #111;
-$date-colors: orange;
+$body-background-color: #FFF;
+$sidebar-background-color: #F4F4F4;
+$text-color: #333;
+$title-color: #111;
+$date-color: orange;
 
 // colors dack mode
 
-$icon-color: var($text-colors);
+$icon-color: var($text-color);
 $circle-color: #AAA;
 $circle-color-plain: #555;
 
@@ -25,6 +25,10 @@ $spacing-2: 0.8rem;
 $spacing-3: 1.2rem;
 $spacing-4: 1.5rem;
 $spacing-5: 2rem;
+
+// grids
+
+
 
 
 

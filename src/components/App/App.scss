@@ -3,12 +3,31 @@
 body {
     font-family: v.$global-font;
     font-weight: 200;
-    color: v.$text-colors;
-    background-color: v.$body-background-colors;
+    color: v.$text-color;
+    background-color: v.$body-background-color;
 }
 
 h1, h2, h3 {
     margin-bottom: v.$spacing-1;
     font-weight: 400;
-    color: v.$text-colors;
+    color: v.$text-color;
+}
+
+@media screen and (min-width:760px) { 
+
+    .grid__container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+// layouts
+
+.sidebar {
+    padding: v.$spacing-4;
+    background-color: v.$sidebar-background-color;
+}
+
+.main {
+    padding: v.$spacing-4;
 }

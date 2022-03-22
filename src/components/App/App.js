@@ -3,7 +3,19 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      test
+
+      <div className="grid__container">
+
+        <div className="sidebar">
+          sidebar
+        </div>
+        
+        <div className="main">
+          main
+        </div> 
+        
+      </div>
+      Mon CV time
       {/** react, material ui, react-html2pdf */}
       {/** variable css */}
 
