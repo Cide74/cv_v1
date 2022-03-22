@@ -1,6 +1,6 @@
-import React from "react";
-import './App.scss';
+//import React from "react";
 import User from "../User/";
+import './App.scss';
 
 function App() {
   return (
@@ -11,10 +11,7 @@ function App() {
         <div className="main">
           main
         </div> 
-
       </div>
-
-
     </div>
     </div>
   );
