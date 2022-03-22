@@ -1,4 +1,3 @@
-import React from "react"
 import "./style.scss"
 import imgRegis from "../../assets/images/Photo-CV.jpg";
 

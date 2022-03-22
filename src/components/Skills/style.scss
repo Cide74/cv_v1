@@ -1,0 +1,28 @@
+@use "src/styles/vars" as v;
+
+.skills {
+    margin: v.$spacing-3 0
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    display: inline-block;
+    width: 1rem; //20px
+    height: 1rem;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: v.$circle-color;
+}
+
+.circle-plain {
+    display: inline-block;
+    width: 1rem; //20px
+    height: 1rem;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: v.$circle-color-plain;
+}
