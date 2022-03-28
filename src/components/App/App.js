@@ -1,6 +1,7 @@
 //import React from "react";
 import User from "../User/";
 import Skills from "../Skills/";
+import Profil from "../Profil/";
 
 import './App.scss';
 
@@ -12,7 +13,9 @@ function App() {
           <User />
           <Skills />
         </div>
-        <div className="main">main</div> 
+        <div className="main">main
+          <Profil />
+        </div> 
       </div>
 
     </div>

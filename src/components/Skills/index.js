@@ -17,7 +17,8 @@ function Skills() {
       </div>
       <div className="skills">
         <h2 className="h2">Langues</h2>
-        <Skill title="ANGLAIS" rating="4"/>
+        <Skill title="Français" rating="5"/>
+        <Skill title="Anglais" rating="4"/>
       </div>
         <Interests />
       </div>
